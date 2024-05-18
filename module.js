@@ -1,6 +1,9 @@
 const add = (params1 , params2) => params1 + params2;
 
-
-module.exports =add;
+const a = 10;
+module.exports ={
+    add,
+    a
+};
 
 // console.log(add);
